@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobilFinalYD.Register">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" Padding="5">
+            <Label Text="&#xef40;" FontFamily="Material" FontSize="50" HorizontalOptions="Center" TextColor="#31708e"/>
+            <Label Text="Happy to see you!" FontSize="32" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalOptions="Start" TextColor="#31708e" />
+            <StackLayout Orientation="Horizontal">
+                <Entry Placeholder="First Name"></Entry>
+                <Entry Placeholder="Last Name"></Entry>
+            </StackLayout>
+            <Entry Placeholder="Email"></Entry>
+            <Entry Placeholder="Password" IsPassword="True"></Entry>
+            <Entry Placeholder="Confirm Password" IsPassword="True"></Entry>
+            <Label Text="Date Of Birth"></Label>
+            <DatePicker></DatePicker>
+            <Button Text="Sign Up"></Button>
+            <Label Text="Already have account? Sign In" TextColor="#31708e"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

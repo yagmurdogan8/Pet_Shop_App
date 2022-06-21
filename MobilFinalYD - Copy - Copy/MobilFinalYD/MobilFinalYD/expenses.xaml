@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobilFinalYD.expenses">
+    <ContentPage.Content>
+        <StackLayout
+        Padding="10"
+        >
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <ListView  x:Name="lvIncomeAndExpenses" HasUnevenRows="True" Grid.RowSpan="2" BindingContext="{Binding IncomeAndExpenses}">
+                    <ListView.Header>
+                        <ContentView>
+                            <Label 
+                            Text="Income And Expenses"
+                            FontSize="Title"
+                            TextColor="#31708e"
+                            />
+                        </ContentView>
+                    </ListView.Header>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell  Height="60">
+                                <Frame Padding="10,0,10,0" HorizontalOptions="FillAndExpand"  HasShadow="True"  Margin="0,5,0,5">
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition Width="7*"/>
+                                            <ColumnDefinition Width="3*"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <Image
+                                            Source="{Binding Image}"  />
+
+                                        <Label
+                                            Grid.Column="1"
+                                            Text="{Binding Name}"
+                                            TextColor="#1e1e1e"
+                                            FontSize="Medium"
+                                            VerticalTextAlignment="Center"
+                                            />
+                                        <Label
+                                            Grid.Column="2"
+                                            Text="{Binding Cost}"
+                                            TextColor="#808080"
+                                            FontSize="Medium"
+                                            VerticalTextAlignment="Center"
+                                            HorizontalOptions="End"
+                                            />
+                                    </Grid>
+                                </Frame>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+                <Button 
+                    Grid.Row="1"
+                    VerticalOptions="End"
+                    HorizontalOptions="End"
+                    BackgroundColor="#31708e"
+                    CornerRadius="100"
+                    WidthRequest="65"
+                    HeightRequest="65"
+                    Margin="10"
+                    Clicked="AddExpenseButton_Clicked"
+                    >
+                </Button>
+                <Label
+                    Grid.Row="1"
+                    VerticalOptions="End"
+                    HorizontalOptions="End"
+                    Text="+"
+                    TextColor="#fff"
+                    FontSize="65"
+                    HorizontalTextAlignment="Center"
+                    Margin="0,0,24,4"
+                     />
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

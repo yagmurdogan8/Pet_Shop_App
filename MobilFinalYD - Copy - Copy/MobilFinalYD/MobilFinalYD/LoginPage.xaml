@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobilFinalYD.LoginPage" Title="My Petshop">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="10" Spacing="20" BackgroundColor="#F7F9FB ">
+            <BoxView HeightRequest="10"/>
+            <Label Text="&#xea77;" FontFamily="Material" FontSize="50" HorizontalOptions="Center" TextColor="#31708e"/>
+            <Label Text="Welcome!" FontSize="32" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalOptions="Start" TextColor="#31708e"/>
+            <Frame BackgroundColor="White" HasShadow="False"  CornerRadius="30" BorderColor="#31708e">
+                <StackLayout Orientation="Vertical" Spacing="10">
+                    <Entry x:Name="Email" Text="{Binding Email}" Placeholder="Email"   
+                           PlaceholderColor="#7CAAA1" HeightRequest="40"   
+                           Keyboard="Email"  
+                           TextColor="#05386b"/>
+                    <Entry x:Name="Password" Text="{Binding Password}" Placeholder="Password"   
+                           PlaceholderColor="#7CAAA1" HeightRequest="40"   
+                           IsPassword="True"  
+                           TextColor="#05386b"/>
+                </StackLayout>
+            </Frame>
+            <StackLayout Orientation="Vertical" Padding="5" Spacing="20">
+                <Button Clicked="LoginCommand" Text="Login" TextColor="#31708e" BorderColor="#31708e" BorderWidth="3"
+                         FontSize="Medium" VerticalOptions="Center"  CornerRadius="120" HorizontalOptions="Center" WidthRequest="180"
+                        BackgroundColor="White" />
+                <BoxView VerticalOptions="Center" HorizontalOptions="Fill" HeightRequest="1" Color="Black"/>
+
+                <Label Text="or Join Us!" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalOptions="Start" TextColor="#31708e" />
+                <Button Clicked="RegisterCommand" Text="Register" TextColor="White" 
+                        FontSize="Medium" VerticalOptions="Center" CornerRadius="120" HorizontalOptions="Center" WidthRequest="180"
+                        BackgroundColor="#31708e" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

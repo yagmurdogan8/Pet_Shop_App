@@ -1,0 +1,41 @@
+C:\Users\1\source\repos\MobilFinalYD\MobilFinalYD\MobilFinalYD\bin\Debug\netstandard2.0\MobilFinalYD.deps.json
+C:\Users\1\source\repos\MobilFinalYD\MobilFinalYD\MobilFinalYD\bin\Debug\netstandard2.0\MobilFinalYD.dll
+C:\Users\1\source\repos\MobilFinalYD\MobilFinalYD\MobilFinalYD\bin\Debug\netstandard2.0\ref\MobilFinalYD.dll
+C:\Users\1\source\repos\MobilFinalYD\MobilFinalYD\MobilFinalYD\bin\Debug\netstandard2.0\MobilFinalYD.pdb
+C:\Users\1\source\repos\MobilFinalYD\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\MobilFinalYD.csproj.AssemblyReference.cache
+C:\Users\1\source\repos\MobilFinalYD\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\MobilFinalYD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\source\repos\MobilFinalYD\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\1\source\repos\MobilFinalYD\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\1\source\repos\MobilFinalYD\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\MobilFinalYD.AssemblyInfoInputs.cache
+C:\Users\1\source\repos\MobilFinalYD\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\MobilFinalYD.AssemblyInfo.cs
+C:\Users\1\source\repos\MobilFinalYD\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\MobilFinalYD.csproj.CoreCompileInputs.cache
+C:\Users\1\source\repos\MobilFinalYD\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\1\source\repos\MobilFinalYD\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\MobilFinalYD.dll
+C:\Users\1\source\repos\MobilFinalYD\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\ref\MobilFinalYD.dll
+C:\Users\1\source\repos\MobilFinalYD\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\MobilFinalYD.pdb
+C:\Users\1\source\repos\MobilFinalYD\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\Dog.xaml.g.cs
+C:\Users\1\source\repos\MobilFinalYD\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\Bird.xaml.g.cs
+C:\Users\1\source\repos\MobilFinalYD\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\Cat.xaml.g.cs
+C:\Users\1\source\repos\MobilFinalYD\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\Fish.xaml.g.cs
+C:\Users\1\source\repos\MobilFinalYD\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\Food.xaml.g.cs
+C:\Users\1\source\repos\MobilFinalYD\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\AllPets.xaml.g.cs
+C:\Users\1\source\repos\MobilFinalYD\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\MyPets.xaml.g.cs
+C:\Users\1\source\repos\MobilFinalYD\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\UserProfile.xaml.g.cs
+C:\Users\1\source\repos\MobilFinalYD - Copy\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\MobilFinalYD.csproj.AssemblyReference.cache
+C:\Users\1\source\repos\MobilFinalYD - Copy\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\MobilFinalYD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\source\repos\MobilFinalYD - Copy\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\AllPets.xaml.g.cs
+C:\Users\1\source\repos\MobilFinalYD - Copy\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\1\source\repos\MobilFinalYD - Copy\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\Bird.xaml.g.cs
+C:\Users\1\source\repos\MobilFinalYD - Copy\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\Cat.xaml.g.cs
+C:\Users\1\source\repos\MobilFinalYD - Copy\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\Dog.xaml.g.cs
+C:\Users\1\source\repos\MobilFinalYD - Copy\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\Fish.xaml.g.cs
+C:\Users\1\source\repos\MobilFinalYD - Copy\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\Food.xaml.g.cs
+C:\Users\1\source\repos\MobilFinalYD - Copy\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\1\source\repos\MobilFinalYD - Copy\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\MyPets.xaml.g.cs
+C:\Users\1\source\repos\MobilFinalYD - Copy\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\UserProfile.xaml.g.cs
+C:\Users\1\source\repos\MobilFinalYD - Copy\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\MobilFinalYD.AssemblyInfoInputs.cache
+C:\Users\1\source\repos\MobilFinalYD - Copy\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\MobilFinalYD.AssemblyInfo.cs
+C:\Users\1\source\repos\MobilFinalYD - Copy\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\MobilFinalYD.csproj.CoreCompileInputs.cache
+C:\Users\1\source\repos\MobilFinalYD - Copy\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\MobilFinalYD.dll
+C:\Users\1\source\repos\MobilFinalYD - Copy\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\ref\MobilFinalYD.dll
+C:\Users\1\source\repos\MobilFinalYD - Copy\MobilFinalYD\MobilFinalYD\obj\Debug\netstandard2.0\MobilFinalYD.pdb

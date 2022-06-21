@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobilFinalYD.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#31708e" Padding="24" CornerRadius="0">
+            <Label Text="Home Page" TextColor="White" FontSize="20"/>
+        </Frame>
+        <Grid Margin="18" HorizontalOptions="CenterAndExpand">
+
+            <Image Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" Source="petshop.png"></Image>
+
+            <Label Margin="0, 40, 0, 0" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="4" FontAttributes="Bold" 
+                   TextColor="#7CAAA1" Text="Select an item from the menu below to go to related page" FontSize="15"></Label>
+
+            <Frame 
+                Padding="0"
+                CornerRadius="100"
+                HorizontalOptions="Center"
+                IsClippedToBounds="True"
+                Grid.Row="2" Grid.Column="0"
+                BackgroundColor="#31708e"
+                >
+                <ImageButton  Source="mypets.png" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Clicked="myPets_Clicked"/>
+            </Frame>
+            <Frame 
+                Padding="0"
+                CornerRadius="100"
+                HorizontalOptions="Center"
+                IsClippedToBounds="True"
+                Grid.Row="2" Grid.Column="1"
+                BackgroundColor="#31708e"
+                >
+                <ImageButton Source="pets.png" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Clicked="shop_Clicked"/>
+            </Frame>
+            <Frame 
+                Padding="0"
+                CornerRadius="100"
+                HorizontalOptions="Center"
+                IsClippedToBounds="True"
+                Grid.Row="2" Grid.Column="2"
+                BackgroundColor="#31708e"
+                >
+                <ImageButton Source="user.png" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Clicked="myProfile_Clicked"/>
+            </Frame>
+            <Frame 
+                Padding="0"
+                CornerRadius="100"
+                HorizontalOptions="Center"
+                IsClippedToBounds="True"
+                Grid.Row="2" Grid.Column="3"
+                BackgroundColor="#31708e"
+                >
+                <ImageButton Source="expenseIcon.png" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Clicked="expenses_Clicked"/>
+            </Frame>
+        </Grid>
+    </StackLayout>
+
+</ContentPage>

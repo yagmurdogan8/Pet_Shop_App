@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobilFinalYD.myProfilePage">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Main Menu" Clicked="mainMenuCommand"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="150"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="10"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Image
+                Grid.RowSpan="3"
+                Aspect="AspectFill"
+                Source="bg.jpg"/>
+            <Frame
+                Grid.Row="2"
+                BackgroundColor="#7CAAA1"
+                >
+            </Frame>
+            <Frame
+                Grid.Row="1"
+                Grid.RowSpan="3"
+                Padding="10"
+                HorizontalOptions="Center"
+                IsClippedToBounds="True"
+                CornerRadius="100"
+                BackgroundColor="#7CAAA1"
+                >
+                <Frame 
+                Padding="0"
+                CornerRadius="100"
+                HorizontalOptions="Center"
+                IsClippedToBounds="True"
+                >
+                    <!--<Image Source="profil2.jpg"/>-->
+                </Frame>
+            </Frame>
+            <!--<ScrollView Margin="10" Grid.Row="5">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label 
+                        Grid.ColumnSpan="2"
+                        Text="Murat Yılmaz"
+                        FontSize="Title"
+                        TextColor="#31708e"
+                        HorizontalOptions="Center"
+                        />
+                    <Label
+                        Grid.Row="1"
+                        Text="Username:"
+                        FontSize="Medium"
+                        TextColor="#1e1e1e"
+                        Margin="0,5,0,5"
+                        />
+                    <Label
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        Text="Murat"
+                        FontSize="Medium"
+                        Margin="0,5,0,5"
+                        />
+                    <Label
+                        Grid.Row="2"
+                        Text="E-Mail:"
+                        FontSize="Medium"
+                        TextColor="#1e1e1e"
+                        Margin="0,5,0,5"
+                        />
+                    <Label
+                        Grid.Row="2"
+                        Grid.Column="1"
+                        Text="murat.yilmaz@hotmail.com"
+                        FontSize="Medium"
+                        TextColor="#808080"
+                        Margin="0,5,0,5"
+                        />
+                    <Label
+                        Grid.Row="3"
+                        Text="Phone:"
+                        FontSize="Medium"
+                        TextColor="#1e1e1e"
+                        Margin="0,5,0,5"
+                        />
+                    <Label
+                        Grid.Row="3"
+                        Grid.Column="1"
+                        Text="+90 555 555 55 55"
+                        FontSize="Medium"
+                        TextColor="#808080"
+                        Margin="0,5,0,5"
+                        />
+                </Grid>
+            </ScrollView>-->
+
+            <Image Source="yd.jpg"/>
+                    <ScrollView Margin="10" Grid.Row="5">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition Width="2*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Label 
+                        Grid.ColumnSpan="2"
+                        Text="Yağmur Doğan"
+                        FontSize="Title"
+                        TextColor="#31708e"
+                        HorizontalOptions="Center"
+                        />
+                            <Label
+                        Grid.Row="1"
+                        Text="Username:"
+                        FontSize="Medium"
+                        TextColor="#1e1e1e"
+                        Margin="0,5,0,5"
+                        />
+                            <Label
+                        Grid.Row="1"
+                        Grid.Column="1"
+                        Text="Yağmur"
+                        FontSize="Medium"
+                        Margin="0,5,0,5"
+                        />
+                            <Label
+                        Grid.Row="2"
+                        Text="E-Mail:"
+                        FontSize="Medium"
+                        TextColor="#1e1e1e"
+                        Margin="0,5,0,5"
+                        />
+                            <Label
+                        Grid.Row="2"
+                        Grid.Column="1"
+                        Text="yagmurdogan@hotmail.com"
+                        FontSize="Medium"
+                        TextColor="#808080"
+                        Margin="0,5,0,5"
+                        />
+                            <Label
+                        Grid.Row="3"
+                        Text="Phone:"
+                        FontSize="Medium"
+                        TextColor="#1e1e1e"
+                        Margin="0,5,0,5"
+                        />
+                            <Label
+                        Grid.Row="3"
+                        Grid.Column="1"
+                        Text="+90 558 888 88 88"
+                        FontSize="Medium"
+                        TextColor="#808080"
+                        Margin="0,5,0,5"
+                        />
+                        </Grid>
+            </ScrollView>
+                    
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

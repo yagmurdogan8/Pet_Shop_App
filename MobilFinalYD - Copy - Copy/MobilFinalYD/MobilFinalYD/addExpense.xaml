@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobilFinalYD.addExpense">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" Padding="5">
+            <Label Text="Expense" FontSize="32" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalOptions="Start" TextColor="#31708e" />
+            <Entry Placeholder="Name:"/>
+            <StackLayout Orientation="Vertical">
+                <Label Text="Expense"/>
+                <Switch IsToggled="true"/>
+                <Label Text="İncome"/>
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Label Text="Regular?"/>
+                <Switch IsToggled="true"/>
+            </StackLayout>
+            <Button Text="Add"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobilFinalYD.addPetPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" Padding="5">
+            <Label Text="&#xea77;" FontFamily="Material" FontSize="50" HorizontalOptions="Center" TextColor="#31708e"/>
+            <Label Text="Hey! A new friend?" FontSize="32" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalOptions="Start" TextColor="#31708e" />
+            <Entry Placeholder="Name"/>
+            <Entry Placeholder="Species"/>
+            <Entry Placeholder="Breed"/>
+            <Entry Placeholder="Age"/>
+            <Button Text="Add"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
